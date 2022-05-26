@@ -1,0 +1,58 @@
+/*
+	*
+	*	Credits fuer das Spiel Shutdown
+	*	@author: 	Felix Hildebrandt
+	*	@date: 		SS18
+	*
+*/
+
+Lizenzen:
+		(*1) https://creativecommons.org/licenses/by/3.0/deed.de
+		(*2) https://creativecommons.org/licenses/by-sa/3.0/de/
+		(*3) http://www.gnu.de/documents/gpl.de.html
+		(*4) http://www.gnu.de/documents/gpl-2.0.de.html
+
+Texturen:
+		1.	Author: CaoticCherryCake
+			Download: https://chaoticcherrycake.deviantart.com/art/Pokemon-Tileset-From-Public-Tiles-32x32-623246343
+			Lizenz: CC-BY 3.0 (*1)
+			Aenderungen: Verdunkeln der Farben
+		
+Sounds:
+		2.	Author: NenadSimic
+			Download: https://opengameart.org/content/menu-selection-click
+			Lizenz: CC-BY 3.0 (*1)
+			Ingame-Bezeichnung: select
+			Aenderungen: verlaengert auf 0.4 Sekunden Laenge
+		
+		3.	Author: Scoaplex
+			Download: https://opengameart.org/content/punches-hits-swords-and-squishes
+			Lizenz: CC-BY-SA 3.0 (*2)
+			Ingame-Bezeichnung: sword
+			Aenderungen: verlaengert auf 0.4 Sekunden Laenge
+		
+		4.	Author: artisticdude
+			Download: https://opengameart.org/content/inventory-sound-effects
+			Lizenz: CC-BY-SA 3.0 (*2), GPL 3.0 (*3), GPL 2.0 (*4), CC-BY 3.0 (*1)
+			Ingame-Bezeichnung: interact, stick, key
+			Aenderungen: verlaengert auf 0.4 Sekunden Laenge
+		
+Musik:
+		5.	Author: Trevor Lenz
+			Download: https://opengameart.org/content/lines-of-code
+			Lizenz: CC-BY-SA 3.0 (*2)
+			Ingame-Bezeichnung: afterwards_theme
+			Aenderungen: Umwandlung in Wave-Datei
+		
+		6.	Author: remaxim
+			Download: https://opengameart.org/content/old-city-theme
+			Lizenz: CC-BY-SA 3.0 (*2)
+			Ingame-Bezeichnung: menu_theme
+			Aenderungen: Umwandlung in Wave-Datei
+		
+		7.	Author: lasercheese
+			Download: https://opengameart.org/content/space-orchestral
+			Lizenz: CC-BY 3.0 (*1)
+			Ingame-Bezeichnung: game_theme
+			Aenderungen: Umwandlung in Wave-Datei
+		
