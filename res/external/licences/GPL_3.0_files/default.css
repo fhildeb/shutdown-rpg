@@ -1,0 +1,141 @@
+body
+  {
+    background-image: url("white-gnus-bg.jpg");
+    background-color: #afafaf;
+    color: #000000;
+  }
+
+*.menu-language
+  {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: smaller;
+    float: right;
+    padding: 0em;
+    margin-bottom: 1em;
+  }
+
+*.menu-language ul
+  {
+    margin: 0em;
+    padding: 0em;
+    list-style-type: none;
+  }
+
+*.menu-language li
+  {
+    background-color: #cfcfcf;
+    border-width: thin;
+    border-style: outset;
+    border-color: #afafaf;
+    float: left;
+    padding: 0.1em;
+    margin: 0.2em;
+  }
+
+*.menu-language li.active
+  {
+    background-color: #efefef;
+    border-style: inset;
+  }
+
+*.menu
+  {
+    position: fixed;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: smaller;
+    margin: 0em;
+    padding: 0em;
+    float: left;
+  }
+
+*.menu ul
+  {
+    margin: 0em;
+    padding: 0em;
+    list-style-type: none;
+  }
+
+*.menu > ul
+  {
+    width: 10em;
+  }
+
+*.menu li
+  {
+    background-color: #cfcfcf;
+    border-width: thin;
+    border-style: outset;
+    border-color: #afafaf;
+    padding: 0.1em;
+    margin: 0.2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+
+*.menu li.active
+  {
+    background-color: #efefef;
+    border-style: inset;
+  }
+
+h1.dropshadow
+  {
+    background-color: #afafaf;
+    border-width: thin;
+    border-style: solid;
+    margin-left: 0.15em;
+  }
+
+h1.dropshadow div
+  {
+    background-color: #efefef;
+    padding: 0.2em 1em;
+    border-width: thin;
+    border-style: solid;
+    margin-top: -0.3ex;
+    margin-bottom: 0.2ex;
+    margin-left: -0.15em;
+    margin-right: 0.05em;
+  }
+
+*.main
+  {
+    background-color: #ffffff;
+    max-width: 50em;
+    clear: right;
+    border-width: thin;
+    border-style: inset;
+    border-color: #afafaf;
+    margin-left: 9.5em;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+    padding: 1em;
+    padding-top: 0.15em;
+    padding-bottom: 0.2em;
+  }
+
+*.teaser
+  {
+    width: 40%;
+    min-width: 15em;
+    float: left;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    background-color: #efefef;
+    border-width: thin;
+    border-style: solid;
+    margin-right: 2em;
+    margin-bottom: 4ex;
+  }
+
+*.teaser h2
+  {
+    padding: 0ex 0.5em;
+  }
+
+*.teaser p
+  {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0.5em;
+    margin: 0em 0em;
+  }
