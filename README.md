@@ -1,6 +1,8 @@
 # shutdown-rpg
 
-A two-dimensional pixelart adventure role-playing game that features:
+A 2D Pixelart Role Play Game built by Felix Hildebrandt as final thesis for Java Development in 2018.
+
+## Features
 
 - story
 - inventory 
@@ -12,8 +14,6 @@ A two-dimensional pixelart adventure role-playing game that features:
 - display engine
 - save function
 
-Built by Felix Hildebrandt as final thesis for Java Development in 2018.
-
 ## Metrics
 
 - roughly 12,000 lines of code 
@@ -21,7 +21,9 @@ Built by Felix Hildebrandt as final thesis for Java Development in 2018.
 
 ## Technical Documentation
 
-The technical Java documentation can be found in [shutdown-doc](https://github.com/fhildeb/shutdown-doc).
+The technical Java documentation can be found in a separate repository:
+
+[fhildeb/shutdown-doc](https://github.com/fhildeb/shutdown-doc).
 
 ## Preview 
 
@@ -32,7 +34,7 @@ The technical Java documentation can be found in [shutdown-doc](https://github.c
 
 It's about two friends - Bob and Alice. You play Bob, who actually had an appointment with his girlfriend Alice. Unfortunately he can't find her anywhere. So he has to go in search of her. At the beginning, he has to search the surrounding area for tools that will help him destroy various objects blocking the way. However, Bob soon realizes that her disappearance didn't happen by chance. On the way to her he finds handwritten messages. The goal of the game is to find the way to Alice by collecting all the messages and get back to the starting point together with her. Will he succeed?
 
-## Features:
+## Advanced Description:
 
 - Organization: The program is divided into the packages: General, Audio, Display, Graphics, Input, Inventory, Items, Maps, States, Backgrounds, User Interface, Tools, as well as Objects. Within the program, the following objects of the same type are organized with additional manager classes: game objects, the menu and inventory interface, keyboard inputs, items, messages, and mouse inputs for the menu and inventory. In the handler class the game and the different map classes are passed. Thus, all underlying methods can be called via a common main class.
 
