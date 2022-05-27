@@ -1,6 +1,25 @@
 # shutdown-rpg
 
-A two-dimensional adventure role-playing game with implemented story, inventory, attack system and save function.
+A two-dimensional pixelart adventure role-playing game with implemented
+
+- story, 
+- inventory, 
+- attack system,
+- animations,
+- view renderer,
+- music,
+- map system,
+- display engine,
+- save function.
+
+Built by Felix Hildebrandt as final thesis for Java Development in 2018.
+
+## Metrics
+
+- roughly 12k lines of code 
+- work scope of 200 hours.
+
+## Preview 
 
 ![Interaction Layout](/img/game_screenshot_01.png)
 ![Interaction Layout](/img/game_screenshot_02.png)
