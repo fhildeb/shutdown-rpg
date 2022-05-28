@@ -2,7 +2,7 @@
 
 A 2D Pixelart Role Play Game built by Felix Hildebrandt as final thesis for Java Development in 2018.
 
-> **_NOTE:_** The commentary and in-game texts are in German.
+> **_NOTE:_** The code commentary might appear in German.
 
 ## Features
 
@@ -70,6 +70,7 @@ It's about two friends - Bob and Alice. You play Bob, who actually had an appoin
 ![Interaction Layout](/img/game_screenshot_04.png)
 ![Interaction Layout](/img/game_screenshot_05.png)
 ![Interaction Layout](/img/game_screenshot_06.png)
+![Interaction Layout](/img/game_screenshot_07.png)
 
 ## Tools
 
