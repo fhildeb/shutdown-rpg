@@ -23,10 +23,10 @@ public class Item {
 	protected Handler handler;
 	
 	//Aus Gegenstaenden resultierende Attacken
-	public static Item attack_1_interact = new Item(Assets.attack_1_interact, "Aufheben", "", "Mit eurem Fingerspitzengefuehl lassen ", "sich Notizen und Gegenstaende bergen.", 0);
-	public static Item attack_2_stick = new Item(Assets.attack_2_stick, "Holzstock", "", "Mit diesem Stock kann man kleine", "Pflanzen und Pilze kaputt schlagen.", 1);
-	public static Item attack_3_sword = new Item(Assets.attack_3_sword, "Eisenschwert", "", "Mit dieser Waffe kann man einen", "Holz-Stamm zerschlagen.", 2);
-	public static Item attack_4_key = new Item(Assets.attack_4_key, "Kisten-Schluessel", "", "Dieses Universalhilfsmittel werden ", "Kisten aufgeschlossen.", 3);
+	public static Item attack_1_interact = new Item(Assets.attack_1_interact, "Pick up", "", "Use your fingertip touch to", "retrieve notes and items.", 0);
+	public static Item attack_2_stick = new Item(Assets.attack_2_stick, "Wooden stick", "", "With this stick you can smash", "small plants and mushrooms.", 1);
+	public static Item attack_3_sword = new Item(Assets.attack_3_sword, "Iron sword", "", "With this weapon you can", "break a wooden trunk.", 2);
+	public static Item attack_4_key = new Item(Assets.attack_4_key, "Box key", "", "This universal tool is used to break", "down and dissolve boxes.", 3);
 	
 	// Klasse
 	public static final int ITEMWIDTH = 32, ITEMHEIGHT = 32;
