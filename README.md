@@ -4,6 +4,10 @@ A 2D Pixelart Role Play Game built by Felix Hildebrandt as final thesis for Java
 
 > **_NOTE:_** The code commentary might appear in German.
 
+## Game Download
+
+[Current Release](https://github.com/fhildeb/shutdown-rpg/releases)
+
 ## Features
 
 - story
@@ -31,10 +35,6 @@ The technical Java documentation can be found in a separate repository:
 
 ![Interaction Layout](/img/game_screenshot_01.png)
 ![Interaction Layout](/img/game_screenshot_02.png)
-
-## Game Download
-
-[Current Release](https://github.com/fhildeb/shutdown-rpg/releases)
 
 ## Story
 
