@@ -32,6 +32,10 @@ The technical Java documentation can be found in a separate repository:
 ![Interaction Layout](/img/game_screenshot_01.png)
 ![Interaction Layout](/img/game_screenshot_02.png)
 
+## Game Download
+
+[Current Release](https://github.com/fhildeb/shutdown-rpg/releases)
+
 ## Story
 
 It's about two friends - Bob and Alice. You play Bob, who actually had an appointment with his girlfriend Alice. Unfortunately he can't find her anywhere. So he has to go in search of her. At the beginning, he has to search the surrounding area for tools that will help him destroy various objects blocking the way. However, Bob soon realizes that her disappearance didn't happen by chance. On the way to her he finds handwritten messages. The goal of the game is to find the way to Alice by collecting all the messages and get back to the starting point together with her. Will he succeed?
