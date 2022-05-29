@@ -68,7 +68,7 @@ It's about two friends - Bob and Alice. You play Bob, who actually had an appoin
 
 - There is a method in the game that checks whether the player is behind or in front of an object and how to render in response. The collision boxes and the positions of the objects are calculated and compared. If necessary, the adjustment of the rendering order is done in the object manager.
 
-## Screenshots
+## Further Screenshots
 
 ![Interaction Layout](/img/game_screenshot_03.png)
 ![Interaction Layout](/img/game_screenshot_04.png)
