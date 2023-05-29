@@ -8,39 +8,24 @@ A 2D Pixelart Role Play Game built by Felix Hildebrandt as final thesis for Java
 
 [Current Release](https://github.com/fhildeb/shutdown-rpg/releases)
 
-## Features
-
-- story
-- inventory 
-- attack system
-- animations
-- view renderer
-- music
-- map system
-- display engine
-- save function
-
-## Metrics
-
-- roughly 12,000 lines of code 
-- work scope of 200 hours.
-
-## Technical Documentation
-
-The technical Java documentation can be found in a separate repository:
-
-[fhildeb/shutdown-doc](https://github.com/fhildeb/shutdown-doc).
-
-## Preview 
-
-![Interaction Layout](/img/game_screenshot_01.png)
-![Interaction Layout](/img/game_screenshot_02.png)
-
 ## Story
 
 It's about two friends - Bob and Alice. You play Bob, who actually had an appointment with his girlfriend Alice. Unfortunately he can't find her anywhere. So he has to go in search of her. At the beginning, he has to search the surrounding area for tools that will help him destroy various objects blocking the way. However, Bob soon realizes that her disappearance didn't happen by chance. On the way to her he finds handwritten messages. The goal of the game is to find the way to Alice by collecting all the messages and get back to the starting point together with her. Will he succeed?
 
-## Advanced Description:
+## Features
+
+- Roleplay Story
+- Inventory & Attack System
+- Music & Animations
+- View Renderer & Display Engine
+- Map, Save, & Load Functionality
+
+## Preview
+
+![Interaction Layout](/img/game_screenshot_01.png)
+![Interaction Layout](/img/game_screenshot_02.png)
+
+## Advanced Description
 
 - Organization: The program is divided into the packages: General, Audio, Display, Graphics, Input, Inventory, Items, Maps, States, Backgrounds, User Interface, Tools, as well as Objects. Within the program, the following objects of the same type are organized with additional manager classes: game objects, the menu and inventory interface, keyboard inputs, items, messages, and mouse inputs for the menu and inventory. In the handler class the game and the different map classes are passed. Thus, all underlying methods can be called via a common main class.
 
@@ -52,7 +37,7 @@ It's about two friends - Bob and Alice. You play Bob, who actually had an appoin
 
 - Action system: The event methods of the inventory user interface set different numerical values that define the current attack method. Depending on the attack, different life bars of the objects are damaged, corresponding sounds are played and appropriate animations are drawn. There is also a cooldown for the attacks, so the life bar decreases piece by piece. With each attack attempt, a new interaction box is added in the direction of travel at the current player position. If there is a collision box of another item in it, its life bar of the currently selected attack will be decreased.
 
-- Graphics: A graphics class is created that reads in all available individual images, cuts out smaller graphic areas from them once at the start and saves them as new textures. Afterwards the textures are assigned to the objects. After the graphics are loaded at the start of the game, they can also be added to animation lists which are then run through with the help of a timer to create a sequence of images. 
+- Graphics: A graphics class is created that reads in all available individual images, cuts out smaller graphic areas from them once at the start and saves them as new textures. Afterwards the textures are assigned to the objects. After the graphics are loaded at the start of the game, they can also be added to animation lists which are then run through with the help of a timer to create a sequence of images.
 
 - Storage system: During the storage process, lists with all current objects, items and messages are stored in individual documents. When these files are read in, the corresponding objects are added to the game world according to the saved name or coordinates.
 
@@ -68,13 +53,21 @@ It's about two friends - Bob and Alice. You play Bob, who actually had an appoin
 
 - There is a method in the game that checks whether the player is behind or in front of an object and how to render in response. The collision boxes and the positions of the objects are calculated and compared. If necessary, the adjustment of the rendering order is done in the object manager.
 
-## Further Screenshots
+## Gameplay
 
 ![Interaction Layout](/img/game_screenshot_03.png)
+
 ![Interaction Layout](/img/game_screenshot_04.png)
+
 ![Interaction Layout](/img/game_screenshot_05.png)
 ![Interaction Layout](/img/game_screenshot_06.png)
 ![Interaction Layout](/img/game_screenshot_07.png)
+
+## Tech Docs
+
+The technical Java documentation can be found in a separate repository:
+
+[shutdown-doc](https://github.com/fhildeb/shutdown-doc).
 
 ## Tools
 
